@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash -ex
 
 if test -n "${ENABLE_HTTP}" && ${ENABLE_HTTP}; then
   echo "Enable clear-text HTTP."

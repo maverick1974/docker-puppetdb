@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -ex
 
 if getent hosts rancher-metadata > /dev/null; then
   # Generate csr_attributes.yaml
